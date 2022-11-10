@@ -1,0 +1,15 @@
+{
+  "VERBOSE": false,
+  "DATABASE":{
+    "HOSTS": ["localhost:27017"],
+    "USERNAME": "admin",
+    "PASSWORD": "adminpw,
+    "AUTH_DATABASE": "admin",
+    "DATA_DATABASE": "opensecureshare",
+    "REPLICA_SET": "rs0"
+  },
+  "API":{
+    "LISTEN_ADDRESS": "0.0.0.0",
+    "PORT": 4000
+  }
+}
